@@ -16,6 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .box-image {
@@ -98,9 +99,14 @@ body {
 
 
 @media screen and (max-width: 1200px) {
+  .city {
+    width: 980px;
+    margin: 0 auto;
+  }
   .box-body {
     width: 335px;
     margin-bottom: 20px;
+    
   }
 
   .box-body img {
@@ -135,6 +141,10 @@ body {
 }
 
 @media screen and (max-width: 989px) {
+  .city {
+    width: 570px;
+    margin: 0 auto;
+  }
   .box-body {
     width: 510px;
     margin-bottom: 20px;
